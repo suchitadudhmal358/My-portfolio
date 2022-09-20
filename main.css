@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+
+.gradient-theme{
+    background:linear-gradient( to bottom, rgba(0, 0, 0, 0.21) 62%, rgba(255, 255, 255, 0.14) 98%, rgba(0, 0, 0, 0.406) 100% );
+    
+}
+
+.gradient-bottom{
+    background:linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 52%, rgba(255, 255, 255, 0.3) 98%, rgba(0, 0, 0, 0.406) 110% );
+    
+}
+
+.gradient-left{
+    /* background:linear-gradient( 190deg, rgba(0, 0, 0, 0.21) 62%, rgba(255, 255, 255, 0.14) 68%, rgba(0, 0, 0, 0.406) 100% ); */
+    background:linear-gradient( 200deg, rgba(0, 0, 0, 0.21) 42%, rgba(255, 255, 255, 0.14) 68%, rgba(0, 0, 0, 0.406) 120% );
+    
+    
+}
+
+
+.gradient-right{
+    background:linear-gradient( 160deg, rgba(0, 0, 0, 0.21) 42%, rgba(255, 255, 255, 0.14) 68%, rgba(0, 0, 0, 0.406) 120% )
+    
+    
+}
+
+.name-color{
+    background: linear-gradient( rgba(255,255,255,0.9), rgba(255,255,255,0) );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+   
+}
+
+.sub-title{
+    color: #858792;
+}
+@tailwind utilities;
